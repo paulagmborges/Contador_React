@@ -1,10 +1,13 @@
-import React from 'react';
+
+
 import './styles.css';
+import Couter from '../../components/Counter';
 
 function Main() {
   return (
     <div className="container-main">
-      <h1>Helloo</h1>
+      <Couter title="Contador 1" initialValue={10} />
+      <Couter title="Contador 2" initialValue={20} />
     </div>
   );
 }
